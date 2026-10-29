@@ -19,9 +19,6 @@ jobs:
       - name: Verify g++ version
         run: g++ --version
 
-      - name: Build project
-        run: make
-
 
 
       - name: Run tests
